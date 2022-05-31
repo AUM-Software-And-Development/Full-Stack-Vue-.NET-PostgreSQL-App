@@ -1,0 +1,15 @@
+c:\Coding\Tutorials\GoodBooks\GoodBooks.Services\bin\Debug\net6.0\GoodBooks.Services.deps.json
+c:\Coding\Tutorials\GoodBooks\GoodBooks.Services\bin\Debug\net6.0\GoodBooks.Services.dll
+c:\Coding\Tutorials\GoodBooks\GoodBooks.Services\bin\Debug\net6.0\GoodBooks.Services.pdb
+c:\Coding\Tutorials\GoodBooks\GoodBooks.Services\obj\Debug\net6.0\GoodBooks.Services.csproj.AssemblyReference.cache
+c:\Coding\Tutorials\GoodBooks\GoodBooks.Services\obj\Debug\net6.0\GoodBooks.Services.GeneratedMSBuildEditorConfig.editorconfig
+c:\Coding\Tutorials\GoodBooks\GoodBooks.Services\obj\Debug\net6.0\GoodBooks.Services.AssemblyInfoInputs.cache
+c:\Coding\Tutorials\GoodBooks\GoodBooks.Services\obj\Debug\net6.0\GoodBooks.Services.AssemblyInfo.cs
+c:\Coding\Tutorials\GoodBooks\GoodBooks.Services\obj\Debug\net6.0\GoodBooks.Services.csproj.CoreCompileInputs.cache
+c:\Coding\Tutorials\GoodBooks\GoodBooks.Services\obj\Debug\net6.0\GoodBooks.Services.dll
+c:\Coding\Tutorials\GoodBooks\GoodBooks.Services\obj\Debug\net6.0\refint\GoodBooks.Services.dll
+c:\Coding\Tutorials\GoodBooks\GoodBooks.Services\obj\Debug\net6.0\GoodBooks.Services.pdb
+c:\Coding\Tutorials\GoodBooks\GoodBooks.Services\obj\Debug\net6.0\ref\GoodBooks.Services.dll
+C:\Coding\Tutorials\GoodBooks\GoodBooks.Services\bin\Debug\net6.0\GoodBooks.Data.dll
+C:\Coding\Tutorials\GoodBooks\GoodBooks.Services\bin\Debug\net6.0\GoodBooks.Data.pdb
+C:\Coding\Tutorials\GoodBooks\GoodBooks.Services\obj\Debug\net6.0\GoodBooks.Services.csproj.CopyComplete
