@@ -6,6 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
+builder.Services.AddCors();
 builder.Services.AddControllers();
 builder.Services.AddDbContext<GoodBooksDbContext>(opts =>
 {
@@ -21,6 +22,8 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
+AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
@@ -28,13 +31,15 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseHttpsRedirection();
+
 app.UseCors(builder => builder
-    .AllowAnyOrigin()
+    .WithOrigins(
+        "http://localhost:8080"
+    )
     .AllowAnyMethod()
     .AllowAnyHeader()
 );
-
-app.UseHttpsRedirection();
 
 app.UseAuthorization();
 

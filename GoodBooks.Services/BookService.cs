@@ -22,6 +22,7 @@ public class BookService : IBookService
         var bookToDelete = _db.Books.Find(bookId);
         if (bookToDelete != null) {
             _db.Books.Remove(bookToDelete);
+            _db.SaveChanges();
         }
         else
         {
